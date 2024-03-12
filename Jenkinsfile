@@ -47,7 +47,7 @@ node{
         }
         sh "mvn dependency:resolve"
         try{
-            sh "mvn clean verify -Dbrowser=chrome -Denvironment=QA"
+            sh "mvn clean verify -Dbrowser=chrome -dheadless=false -Denvironment=QA"
 
         } catch(e) {
 
