@@ -81,6 +81,7 @@ node{
     
     stage('send email notification'){
         def tmpRep = env.BUILD_URL+"allure"
+        emailext body:  "Build Status :- ${currentBuild.currentResult} \n\n Job Name :- ${env.JOB_NAME} , build :-  ${env.BUILD_NUMBER}\n\n   More info at: ${env.BUILD_URL} \n\n Please find the allure report at ${tmpRep}", 
                 subject: "Jenkins Build Status for Job ${env.JOB_NAME}",
                 to: "pritamatta12345@gmail.com, taufik@getassistive.com"
     }
