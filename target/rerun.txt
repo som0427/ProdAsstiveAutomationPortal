@@ -1,0 +1,1 @@
+file:src/test/resources/com/test/channelplay/feature/CustomerTrans_AUT10&7.feature:10

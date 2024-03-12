@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.789" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\MD Taufik\.cache\selenium\chromedriver\win64\122.0.6261.111\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal\target\test-classes;C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal\target\classes;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-testng\6.8.1\cucumber-testng-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-core\6.8.1\cucumber-core-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-gherkin\6.8.1\cucumber-gherkin-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.8.1\cucumber-gherkin-messages-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\messages\13.1.0\messages-13.1.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-plugin\6.8.1\cucumber-plugin-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\docstring\6.8.1\docstring-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\MD Taufik\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\MD Taufik\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\MD Taufik\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\MD Taufik\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\MD Taufik\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\MD Taufik\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\MD Taufik\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\MD Taufik\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-java\6.8.1\cucumber-java-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-java8\6.8.1\cucumber-java8-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\net\jodah\typetools\0.6.2\typetools-0.6.2.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-7\selenium-java-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-7\selenium-api-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-7\selenium-chrome-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc7\auto-service-annotations-1.0-rc7.jar;C:\Users\MD Taufik\.m2\repository\com\google\auto\service\auto-service\1.0-rc7\auto-service-1.0-rc7.jar;C:\Users\MD Taufik\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-7\selenium-chromium-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-7\selenium-devtools-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-7\selenium-http-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-7\selenium-json-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v84\4.0.0-alpha-7\selenium-devtools-v84-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-alpha-7\selenium-devtools-v85-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v86\4.0.0-alpha-7\selenium-devtools-v86-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v87\4.0.0-alpha-7\selenium-devtools-v87-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-7\selenium-edge-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-7\selenium-edgehtml-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-7\selenium-firefox-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-7\selenium-firefox-xpi-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-7\selenium-ie-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-7\selenium-opera-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-7\selenium-remote-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\MD Taufik\.m2\repository\io\grpc\grpc-context\1.32.1\grpc-context-1.32.1.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-buffer\4.1.53.Final\netty-buffer-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-http\4.1.53.Final\netty-codec-http-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec\4.1.53.Final\netty-codec-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-common\4.1.53.Final\netty-common-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.53.Final\netty-transport-native-unix-common-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport\4.1.53.Final\netty-transport-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-resolver\4.1.53.Final\netty-resolver-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-api\0.9.1\opentelemetry-api-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.9.1\opentelemetry-context-prop-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.9.1\opentelemetry-sdk-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\0.9.1\opentelemetry-sdk-common-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-baggage\0.9.1\opentelemetry-sdk-baggage-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\0.9.1\opentelemetry-sdk-metrics-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-tracing\0.9.1\opentelemetry-sdk-tracing-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.0.0\reactor-netty-http-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-http2\4.1.53.Final\netty-codec-http2-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-resolver-dns\4.1.53.Final\netty-resolver-dns-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-dns\4.1.53.Final\netty-codec-dns-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.0.0\reactor-netty-core-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty\1.0.0\reactor-netty-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty-http-brave\1.0.0\reactor-netty-http-brave-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\brave\brave-instrumentation-http\5.12.7\brave-instrumentation-http-5.12.7.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\brave\brave\5.12.7\brave-5.12.7.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\reporter2\zipkin-reporter-brave\2.15.2\zipkin-reporter-brave-2.15.2.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\reporter2\zipkin-reporter\2.15.2\zipkin-reporter-2.15.2.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\zipkin2\zipkin\2.21.7\zipkin-2.21.7.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\reactor-core\3.4.0\reactor-core-3.4.0.jar;C:\Users\MD Taufik\.m2\repository\net\bytebuddy\byte-buddy\1.10.18\byte-buddy-1.10.18.jar;C:\Users\MD Taufik\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MD Taufik\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\MD Taufik\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\MD Taufik\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-7\selenium-safari-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-7\selenium-support-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\MD Taufik\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\MD Taufik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\MD Taufik\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\MD Taufik\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\MD Taufik\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\MD Taufik\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\MD Taufik\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\MD Taufik\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\MD Taufik\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\MD Taufik\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\MD Taufik\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\MD Taufik\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\MD Taufik\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\MD Taufik\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MD Taufik\.m2\repository\io\qameta\allure\allure-cucumber6-jvm\2.13.8\allure-cucumber6-jvm-2.13.8.jar;C:\Users\MD Taufik\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\MD Taufik\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\MD Taufik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;C:\Users\MD Taufik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;C:\Users\MD Taufik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\MD Taufik\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\MD Taufik\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\gherkin\15.0.2\gherkin-15.0.2.jar;C:\Users\MD Taufik\.m2\repository\com\google\guava\guava\24.0-jre\guava-24.0-jre.jar;C:\Users\MD Taufik\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MD Taufik\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MD Taufik\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MD Taufik\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MD Taufik\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MD Taufik\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\MD Taufik\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\MD Taufik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\MD Taufik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\MD Taufik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\MD Taufik\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\MD Taufik\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\html2pdf\5.0.3\html2pdf-5.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\forms\8.0.3\forms-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\kernel\8.0.3\kernel-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\bouncy-castle-connector\8.0.3\bouncy-castle-connector-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\io\8.0.3\io-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\commons\8.0.3\commons-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\layout\8.0.3\layout-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\pdfa\8.0.3\pdfa-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\svg\8.0.3\svg-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\styled-xml-parser\8.0.3\styled-xml-parser-8.0.3.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="dataproviderthreadcount" value="2"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/browse/{}"/>
+    <property name="sun.boot.library.path" value="C:\Users\MD Taufik\.jdks\corretto-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\MD Taufik\AppData\Local\Temp\surefire10753792878754219305\surefirebooter432147104624137735.jar C:\Users\MD Taufik\AppData\Local\Temp\surefire10753792878754219305 2024-03-12T11-56-49_277-jvmRun1 surefire17379933356185749520tmp surefire_07529840444492411611tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal\target\test-classes;C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal\target\classes;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-testng\6.8.1\cucumber-testng-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-core\6.8.1\cucumber-core-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-gherkin\6.8.1\cucumber-gherkin-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.8.1\cucumber-gherkin-messages-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\messages\13.1.0\messages-13.1.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-plugin\6.8.1\cucumber-plugin-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\docstring\6.8.1\docstring-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\MD Taufik\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\MD Taufik\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\MD Taufik\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\MD Taufik\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\MD Taufik\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\MD Taufik\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\MD Taufik\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\MD Taufik\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-java\6.8.1\cucumber-java-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\cucumber-java8\6.8.1\cucumber-java8-6.8.1.jar;C:\Users\MD Taufik\.m2\repository\net\jodah\typetools\0.6.2\typetools-0.6.2.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-7\selenium-java-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-7\selenium-api-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-7\selenium-chrome-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc7\auto-service-annotations-1.0-rc7.jar;C:\Users\MD Taufik\.m2\repository\com\google\auto\service\auto-service\1.0-rc7\auto-service-1.0-rc7.jar;C:\Users\MD Taufik\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-7\selenium-chromium-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-7\selenium-devtools-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-7\selenium-http-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-7\selenium-json-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v84\4.0.0-alpha-7\selenium-devtools-v84-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-alpha-7\selenium-devtools-v85-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v86\4.0.0-alpha-7\selenium-devtools-v86-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v87\4.0.0-alpha-7\selenium-devtools-v87-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-7\selenium-edge-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-7\selenium-edgehtml-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-7\selenium-firefox-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-7\selenium-firefox-xpi-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-7\selenium-ie-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-7\selenium-opera-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-7\selenium-remote-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\MD Taufik\.m2\repository\io\grpc\grpc-context\1.32.1\grpc-context-1.32.1.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-buffer\4.1.53.Final\netty-buffer-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-http\4.1.53.Final\netty-codec-http-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec\4.1.53.Final\netty-codec-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-common\4.1.53.Final\netty-common-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-epoll\4.1.53.Final\netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.53.Final\netty-transport-native-kqueue-4.1.53.Final-osx-x86_64.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.53.Final\netty-transport-native-unix-common-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-transport\4.1.53.Final\netty-transport-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-resolver\4.1.53.Final\netty-resolver-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-api\0.9.1\opentelemetry-api-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-context-prop\0.9.1\opentelemetry-context-prop-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk\0.9.1\opentelemetry-sdk-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\0.9.1\opentelemetry-sdk-common-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-baggage\0.9.1\opentelemetry-sdk-baggage-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\0.9.1\opentelemetry-sdk-metrics-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\opentelemetry\opentelemetry-sdk-tracing\0.9.1\opentelemetry-sdk-tracing-0.9.1.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty-http\1.0.0\reactor-netty-http-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-http2\4.1.53.Final\netty-codec-http2-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-resolver-dns\4.1.53.Final\netty-resolver-dns-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-dns\4.1.53.Final\netty-codec-dns-4.1.53.Final.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty-core\1.0.0\reactor-netty-core-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty\1.0.0\reactor-netty-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\netty\reactor-netty-http-brave\1.0.0\reactor-netty-http-brave-1.0.0.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\brave\brave-instrumentation-http\5.12.7\brave-instrumentation-http-5.12.7.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\brave\brave\5.12.7\brave-5.12.7.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\reporter2\zipkin-reporter-brave\2.15.2\zipkin-reporter-brave-2.15.2.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\reporter2\zipkin-reporter\2.15.2\zipkin-reporter-2.15.2.jar;C:\Users\MD Taufik\.m2\repository\io\zipkin\zipkin2\zipkin\2.21.7\zipkin-2.21.7.jar;C:\Users\MD Taufik\.m2\repository\io\projectreactor\reactor-core\3.4.0\reactor-core-3.4.0.jar;C:\Users\MD Taufik\.m2\repository\net\bytebuddy\byte-buddy\1.10.18\byte-buddy-1.10.18.jar;C:\Users\MD Taufik\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\MD Taufik\.m2\repository\org\asynchttpclient\async-http-client\2.12.1\async-http-client-2.12.1.jar;C:\Users\MD Taufik\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.1\async-http-client-netty-utils-2.12.1.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-codec-socks\4.1.48.Final\netty-codec-socks-4.1.48.Final.jar;C:\Users\MD Taufik\.m2\repository\io\netty\netty-handler-proxy\4.1.48.Final\netty-handler-proxy-4.1.48.Final.jar;C:\Users\MD Taufik\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-7\selenium-safari-driver-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-7\selenium-support-4.0.0-alpha-7.jar;C:\Users\MD Taufik\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\MD Taufik\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\MD Taufik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\commons-io\commons-io\2.13.0\commons-io-2.13.0.jar;C:\Users\MD Taufik\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\MD Taufik\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\MD Taufik\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\MD Taufik\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\MD Taufik\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\MD Taufik\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\MD Taufik\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\MD Taufik\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\MD Taufik\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\MD Taufik\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\MD Taufik\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\MD Taufik\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\MD Taufik\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MD Taufik\.m2\repository\io\qameta\allure\allure-cucumber6-jvm\2.13.8\allure-cucumber6-jvm-2.13.8.jar;C:\Users\MD Taufik\.m2\repository\io\qameta\allure\allure-java-commons\2.13.8\allure-java-commons-2.13.8.jar;C:\Users\MD Taufik\.m2\repository\io\qameta\allure\allure-model\2.13.8\allure-model-2.13.8.jar;C:\Users\MD Taufik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;C:\Users\MD Taufik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;C:\Users\MD Taufik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\MD Taufik\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\MD Taufik\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\MD Taufik\.m2\repository\io\cucumber\gherkin\15.0.2\gherkin-15.0.2.jar;C:\Users\MD Taufik\.m2\repository\com\google\guava\guava\24.0-jre\guava-24.0-jre.jar;C:\Users\MD Taufik\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\MD Taufik\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\MD Taufik\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\MD Taufik\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\MD Taufik\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\MD Taufik\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\MD Taufik\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\MD Taufik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\MD Taufik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\MD Taufik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\MD Taufik\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\MD Taufik\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\html2pdf\5.0.3\html2pdf-5.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\forms\8.0.3\forms-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\kernel\8.0.3\kernel-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\bouncy-castle-connector\8.0.3\bouncy-castle-connector-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\io\8.0.3\io-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\commons\8.0.3\commons-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\layout\8.0.3\layout-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\pdfa\8.0.3\pdfa-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\svg\8.0.3\svg-8.0.3.jar;C:\Users\MD Taufik\.m2\repository\com\itextpdf\styled-xml-parser\8.0.3\styled-xml-parser-8.0.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal\target/allure-results"/>
+    <property name="user.home" value="C:\Users\MD Taufik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="threadCount" value="2"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Users\MD Taufik\.jdks\corretto-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/browse/{}"/>
+    <property name="basedir" value="C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MD Taufik\AppData\Local\Temp\surefire10753792878754219305\surefirebooter432147104624137735.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="cucumber.plugin" value="io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"/>
+    <property name="java.runtime.version" value="16.0.2+7"/>
+    <property name="user.name" value="MD Taufik"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="chrome"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-16.0.2.7.1"/>
+    <property name="localRepository" value="C:\Users\MD Taufik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-jdk/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MDTAUF~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.3"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\Users\MD Taufik\Documents\GitHub\ProdAsstiveAutomationPortal"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="rerunFailingTestsCount" value="1"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="headless" value="false"/>
+    <property name="java.library.path" value="C:\Users\MD Taufik\.jdks\corretto-16.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\maven\apache-maven-3.9.0\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\nodejs\;C:\Users\MD Taufik\AppData\Local\Android\Sdk\bin;C:\Users\MD Taufik\AppData\Local\Android\Sdk\tools;C:\Users\MD Taufik\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Git\usr\bin;C:\Users\MD Taufik\AppData\Local\Microsoft\WindowsApps;C:\Users\MD Taufik\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\lib;C:\Program Files (x86)\maven\apache-maven-3.9.0\bin;C:\Users\MD Taufik\AppData\Roaming\npm;C:\Program Files\Git\usr\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="16.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Add customer with all fields&quot;, &quot;Optional[Add a new Customer with Save and Add New Customer functionality]&quot;](1)" classname="com.test.channelplay.RunCucumberTest" time="6.358">
+    <failure message="Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.lang.System.getProperty(String)&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.lang.System.getProperty(String)" is null
+]]></failure>
+    <system-out><![CDATA[
+@AUT10 @Scenario1
+Scenario: Add customer with all fields                                 # src/test/resources/com/test/channelplay/feature/CustomerTrans_AUT10&7.feature:10
+Getting the Driver information
+  Given after login to crm user will be on the Customer page under CRM # com.test.channelplay.stepDefinition.CustomerTransStepsProd.afterLoginToCrmUserWillBeOnTheCustomerPageUnderCRM()
+      java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.lang.System.getProperty(String)" is null
+	at com.test.channelplay.utils.GetProperty.getValueForEnv(GetProperty.java:32)
+	at com.test.channelplay.utils.GetProperty.value(GetProperty.java:20)
+	at com.test.channelplay.stepDefinition.CustomerTransStepsProd.afterLoginToCrmUserWillBeOnTheCustomerPageUnderCRM(CustomerTransStepsProd.java:28)
+	at âœ½.after login to crm user will be on the Customer page under CRM(file:///C:/Users/MD%20Taufik/Documents/GitHub/ProdAsstiveAutomationPortal/src/test/resources/com/test/channelplay/feature/CustomerTrans_AUT10&7.feature:6)
+
+  And user select CRM and Click on Customer                            # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCRMAndClickOnCustomer()
+  When User Click on Add button                                        # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userClickOnAddButton()
+  And user Enter Customer Name                                         # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterCustomerName()
+  And user select CustomerType dropdown and click first option         # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCustomerTypeDropdownAndClickFirstOption()
+  And user enter address                                               # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterAddress()
+  And user select Country                                              # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCountry()
+  And user select State                                                # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectState()
+  And user select City                                                 # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCity()
+  And user upload photo                                                # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userUploadPhoto()
+  And user enter phone number                                          # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterPhoneNumber()
+  And user select timezone dropdown and click on first option          # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectTimezoneDropdownAndClickOnFirstOption()
+  And user click calender button and click select current date         # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userClickCalenderButtonAndClickSelectCurrentDate()
+  And user enter email                                                 # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterEmail()
+  And user upload document docs,pdf,ppt.xlsx                           # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userUploadDocumentDocsPdfPptXlsx()
+  And user upload video mpfour,mpg                                     # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userUploadVideoMpfourMpg()
+  And user select select gender and click first option                 # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectSelectGenderAndClickFirstOption()
+  And user click save button                                           # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userClickSaveButton()
+  Then customer will added successfully with active status             # com.test.channelplay.stepDefinition.CustomerTransStepsProd.customerWillAddedSuccessfullyWithActiveStatus()
+
+    Embedding Screenshot [image/png 8145 bytes]
+
+
+    Test page: data:,
+
+
+    Test Browser: chrome
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 5179
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2024 11:56:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 12, 2024 11:56:59 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Invalid Status code=403 text=Forbidden
+java.io.IOException: Invalid Status code=403 text=Forbidden
+	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
+	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
+	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:425)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+Mar 12, 2024 11:56:59 AM org.openqa.selenium.chromium.ChromiumDevToolsLocator getChromeConnector
+WARNING: Unable to create CDP connection
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60004/devtools/browser/d680c8de-e12b-4c21-86e1-abe71256a8c6
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-3591MT1', ip: '192.168.101.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:98)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:126)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:68)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:69)
+	at org.openqa.selenium.chromium.ChromiumDevToolsLocator.lambda$getChromeConnector$1(ChromiumDevToolsLocator.java:115)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDevToolsLocator.getChromeConnector(ChromiumDevToolsLocator.java:113)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:100)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:139)
+	at com.test.channelplay.utils.DriverBase.initialize(DriverBase.java:34)
+	at com.test.channelplay.stepDefinition.Hooks.driverSetup(Hooks.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+Mar 12, 2024 11:56:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, so returning the closest version found: a no-op implementation
+Mar 12, 2024 11:56:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 122.
+Mar 12, 2024 11:57:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add customer with all fields&quot;, &quot;Optional[Add a new Customer with Save and Add New Customer functionality]&quot;](1)" classname="com.test.channelplay.ReRunCucumberTest" time="3.906">
+    <failure message="Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.lang.System.getProperty(String)&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.lang.System.getProperty(String)" is null
+]]></failure>
+    <system-out><![CDATA[
+@AUT10 @Scenario1
+Scenario: Add customer with all fields                                 # src/test/resources/com/test/channelplay/feature/CustomerTrans_AUT10&7.feature:10
+Getting the Driver information
+  Given after login to crm user will be on the Customer page under CRM # com.test.channelplay.stepDefinition.CustomerTransStepsProd.afterLoginToCrmUserWillBeOnTheCustomerPageUnderCRM()
+      java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.lang.System.getProperty(String)" is null
+	at com.test.channelplay.utils.GetProperty.getValueForEnv(GetProperty.java:32)
+	at com.test.channelplay.utils.GetProperty.value(GetProperty.java:20)
+	at com.test.channelplay.stepDefinition.CustomerTransStepsProd.afterLoginToCrmUserWillBeOnTheCustomerPageUnderCRM(CustomerTransStepsProd.java:28)
+	at âœ½.after login to crm user will be on the Customer page under CRM(file:///C:/Users/MD%20Taufik/Documents/GitHub/ProdAsstiveAutomationPortal/src/test/resources/com/test/channelplay/feature/CustomerTrans_AUT10&7.feature:6)
+
+  And user select CRM and Click on Customer                            # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCRMAndClickOnCustomer()
+  When User Click on Add button                                        # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userClickOnAddButton()
+  And user Enter Customer Name                                         # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterCustomerName()
+  And user select CustomerType dropdown and click first option         # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCustomerTypeDropdownAndClickFirstOption()
+  And user enter address                                               # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterAddress()
+  And user select Country                                              # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCountry()
+  And user select State                                                # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectState()
+  And user select City                                                 # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectCity()
+  And user upload photo                                                # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userUploadPhoto()
+  And user enter phone number                                          # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterPhoneNumber()
+  And user select timezone dropdown and click on first option          # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectTimezoneDropdownAndClickOnFirstOption()
+  And user click calender button and click select current date         # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userClickCalenderButtonAndClickSelectCurrentDate()
+  And user enter email                                                 # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userEnterEmail()
+  And user upload document docs,pdf,ppt.xlsx                           # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userUploadDocumentDocsPdfPptXlsx()
+  And user upload video mpfour,mpg                                     # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userUploadVideoMpfourMpg()
+  And user select select gender and click first option                 # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userSelectSelectGenderAndClickFirstOption()
+  And user click save button                                           # com.test.channelplay.stepDefinition.CustomerTransStepsProd.userClickSaveButton()
+  Then customer will added successfully with active status             # com.test.channelplay.stepDefinition.CustomerTransStepsProd.customerWillAddedSuccessfullyWithActiveStatus()
+
+    Embedding Screenshot [image/png 8145 bytes]
+
+
+    Test page: data:,
+
+
+    Test Browser: chrome
+
+]]></system-out>
+    <system-err><![CDATA[┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://reports.cucumber.io/docs/cucumber-jvm                 │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+Starting ChromeDriver 122.0.6261.111 (9d4c1072da62b411b351a38b9ed6214ab236aa7b-refs/branch-heads/6261@{#1015}) on port 46853
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 12, 2024 11:57:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 12, 2024 11:57:07 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Invalid Status code=403 text=Forbidden
+java.io.IOException: Invalid Status code=403 text=Forbidden
+	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
+	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
+	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:425)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+Mar 12, 2024 11:57:07 AM org.openqa.selenium.chromium.ChromiumDevToolsLocator getChromeConnector
+WARNING: Unable to create CDP connection
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:60022/devtools/browser/4cd5a88f-4fc9-4c7b-98eb-f6556d3a6a00
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-3591MT1', ip: '192.168.101.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:98)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:126)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:68)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:69)
+	at org.openqa.selenium.chromium.ChromiumDevToolsLocator.lambda$getChromeConnector$1(ChromiumDevToolsLocator.java:115)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDevToolsLocator.getChromeConnector(ChromiumDevToolsLocator.java:113)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:100)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:139)
+	at com.test.channelplay.utils.DriverBase.initialize(DriverBase.java:34)
+	at com.test.channelplay.stepDefinition.Hooks.driverSetup(Hooks.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+Mar 12, 2024 11:57:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 122, so returning the closest version found: a no-op implementation
+Mar 12, 2024 11:57:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 122.
+Mar 12, 2024 11:57:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$0
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.0.0-alpha-7` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

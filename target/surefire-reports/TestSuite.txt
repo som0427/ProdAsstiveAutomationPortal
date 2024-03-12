@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 16.789 s <<< FAILURE! - in TestSuite
+com.test.channelplay.RunCucumberTest.runScenario["Add customer with all fields", "Optional[Add a new Customer with Save and Add New Customer functionality]"](1)  Time elapsed: 6.358 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.lang.System.getProperty(String)" is null
+
+com.test.channelplay.ReRunCucumberTest.runScenario["Add customer with all fields", "Optional[Add a new Customer with Save and Add New Customer functionality]"](1)  Time elapsed: 3.906 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.lang.System.getProperty(String)" is null
+
