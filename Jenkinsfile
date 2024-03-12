@@ -28,7 +28,7 @@ node{
 
         echo "Staring the Jenkins build for the Assistive Regression Test Suite"
 
-        git credentialsId: 'f1cb9414-3203-4945-bd7d-0af0a9364e66', url: 'https://github.com/som0427/ProdAsstiveAutomationPortal.git'
+        git credentialsId: 'taufik1994', url: 'https://github.com/som0427/ProdAsstiveAutomationPortal.git'
 
     }
 
