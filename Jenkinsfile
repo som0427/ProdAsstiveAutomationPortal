@@ -28,7 +28,7 @@ node{
 
         echo "Staring the Jenkins build for the Assistive Regression Test Suite"
 
-        git credentialsId: '658c0152-5d89-4eaf-b65d-f9d98104dec9', url: 'https://github.com/som0427/ProdAsstiveAutomationPortal.git'
+        git credentialsId: 'f1cb9414-3203-4945-bd7d-0af0a9364e66', url: 'https://github.com/som0427/ProdAsstiveAutomationPortal.git'
 
     }
 
@@ -47,7 +47,7 @@ node{
         }
         sh "mvn dependency:resolve"
         try{
-            sh "mvn clean verify -Dbrowser=chrome -Denvironment=QA"
+            sh "mvn clean verify -Dbrowser=chrome -Dheadless=true -Denvironment=QA"
 
         } catch(e) {
 
@@ -59,7 +59,7 @@ node{
 
         script {
             sh '''
-                 if [ -d "allure-results" ] ; then
+                 if [ -D"allure-results" ] ; then
                     echo "Browser=${BrowserType}
                         Branch=${BUILD_TAG}
                         Headless=${Headless}
@@ -70,13 +70,19 @@ node{
              '''
 
             allure([
-                    includeProperties: true,
+                    includeProperties: false,
                     jdk: '',
                     properties: [],
                     reportBuildPolicy: 'ALWAYS',
                     results: [[path: 'target/allure-results']]
             ])
         }
+    }
+    
+    stage('send email notification'){
+        def tmpRep = env.BUILD_URL+"allure"
+                subject: "Jenkins Build Status for Job ${env.JOB_NAME}",
+                to: "pritamatta12345@gmail.com, taufik@getassistive.com"
     }
 
     if(build_ok) {
